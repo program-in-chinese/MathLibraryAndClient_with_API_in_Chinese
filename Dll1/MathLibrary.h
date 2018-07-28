@@ -1,18 +1,18 @@
 #pragma once  
 
-#ifdef MATHLIBARARY_EXPORTS  
-#define MATHLIBARARY_API __declspec(dllexport)   
+#ifdef MATHLIBø‚RARY_EXPORTS  
+#define MATHLIBø‚RARY_API __declspec(dllexport)   
 #else  
-#define MATHLIBARARY_API __declspec(dllimport)   
+#define MATHLIBø‚RARY_API __declspec(dllimport)   
 #endif  
 
-namespace MathLiba
+namespace MathLibø‚
 {
 	// This class is exported from the MathLibrary.dll  
 	class Functions
 	{
 	public:
-		static MATHLIBARARY_API double º”(double a, double b);
+		static MATHLIBø‚RARY_API double º”(double a, double b);
 		/*
 		static MATHLIBRARY_API double ≥À(double a, double b);
 
