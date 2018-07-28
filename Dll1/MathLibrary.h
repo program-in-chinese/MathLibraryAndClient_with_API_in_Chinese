@@ -12,15 +12,11 @@ namespace MathLibrary
 	class Functions
 	{
 	public:
-		// Returns a + b  
-		static MATHLIBRARY_API double Add(double a, double b);
-
 		static MATHLIBRARY_API double ¼Ó(double a, double b);
 
-		// Returns a * b  
-		static MATHLIBRARY_API double Multiply(double a, double b);
+		static MATHLIBRARY_API double ³Ë(double a, double b);
 
 		// Returns a + (a * b)  
-		static MATHLIBRARY_API double AddMultiply(double a, double b);
+		static MATHLIBRARY_API double ¼Ó³Ë(double a, double b);
 	};
 }
