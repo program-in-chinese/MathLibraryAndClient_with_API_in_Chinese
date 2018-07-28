@@ -1,18 +1,18 @@
 #pragma once  
 
-#ifdef MATHLIB库RARY_EXPORTS  
-#define MATHLIB库RARY_API __declspec(dllexport)   
+#ifdef 数学库_EXPORTS  
+#define 数学库_API __declspec(dllexport)   
 #else  
-#define MATHLIB库RARY_API __declspec(dllimport)   
+#define 数学库_API __declspec(dllimport)   
 #endif  
 
-namespace MathLib库
+namespace 数学库
 {
 	// This class is exported from the MathLibrary.dll  
 	class Functions
 	{
 	public:
-		static MATHLIB库RARY_API double 加(double a, double b);
+		static 数学库_API double 加(double a, double b);
 		/*
 		static MATHLIBRARY_API double 乘(double a, double b);
 
