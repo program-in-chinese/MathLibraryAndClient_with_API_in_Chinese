@@ -1,22 +1,22 @@
 #pragma once  
 
-#ifdef MATHLIBRARY_EXPORTS  
-#define MATHLIBRARY_API __declspec(dllexport)   
+#ifdef MATHLIBARARY_EXPORTS  
+#define MATHLIBARARY_API __declspec(dllexport)   
 #else  
-#define MATHLIBRARY_API __declspec(dllimport)   
+#define MATHLIBARARY_API __declspec(dllimport)   
 #endif  
 
-namespace MathLibrary
+namespace MathLiba
 {
 	// This class is exported from the MathLibrary.dll  
 	class Functions
 	{
 	public:
-		static MATHLIBRARY_API double 加(double a, double b);
-
+		static MATHLIBARARY_API double 加(double a, double b);
+		/*
 		static MATHLIBRARY_API double 乘(double a, double b);
 
 		// Returns a + (a * b)  
-		static MATHLIBRARY_API double 加乘(double a, double b);
+		static MATHLIBRARY_API double 加乘(double a, double b);*/
 	};
 }
