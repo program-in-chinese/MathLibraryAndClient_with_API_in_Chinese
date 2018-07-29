@@ -26,7 +26,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MathClient.cpp">
+    <ClCompile Include="数学小学生.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
